@@ -238,14 +238,23 @@ p {
 
 .logo {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
 }
 
-.logo-img {
-  height: 48px;
+.logo-image {
+  height: 32px;
   width: auto;
+  max-width: 160px;
   object-fit: contain;
+  display: block;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .logo-text {
