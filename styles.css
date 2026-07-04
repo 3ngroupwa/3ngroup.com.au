@@ -244,9 +244,9 @@ p {
 }
 
 .logo-image {
-  height: 288px;
+  height: 144px;
   width: auto;
-  max-width: 576px;
+  max-width: 288px;
   object-fit: contain;
   display: block;
 }
